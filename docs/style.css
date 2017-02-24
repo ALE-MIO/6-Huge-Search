@@ -1,0 +1,271 @@
+*:hover{transition: all .3s ease-in;	}		/* это ПРОТОРМОЗ всех АНИМАЦИЙ */
+
+*{font-family: arial;}		/* это ГЛОБАЛЬНЫЙ стиль ШРИФТА */
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;}
+::-webkit-input-placeholder {color:#C4C4C4;}
+:focus::-webkit-input-placeholder {color: transparent} /* исчезающий текст - ПОЛЯ ВВОДА при фокусе*/
+ 
+
+html {background: #F1F1F1;			/* это стили всего ПОЛЯ ДОКУМЕНТА */
+		border: 20px solid #F1F1F1;
+		width: 100%;
+		height: 100%;      }      
+
+.gray_color_head{				/* это ЁМКОСТЬ РОДИТЕЛЯ ДЛЯ - ПОЛЯ ВВОДА */
+	display: inline;
+	box-sizing: border-box;   }
+
+.search_block{
+	display: inline-block;
+}
+
+.search_block input{			/* это стили РОДИТЕЛЯ ДЛЯ - ПОЛЯ ВВОДА */
+	font-size: 0;
+	font-weight: lighter;
+	color: #ec5a62;  /*это цвет из задания*/
+	background-color: #F1F1F1;
+	width: 69%;
+	vertical-align: middle;   }
+
+#placeholder{				/* это стили ПОЛЯ ВВОДА */
+	position: relative;
+	height: 4.5%;
+	width: 77%;
+	margin-left: 10%;
+	margin-right: -10%;
+	font-size: 100px;
+	font-weight: bold;
+	border: none;	}
+
+#magnifier{					/* это стили УВЕЛИЧ. ПРИБОРА */
+	position: absolute;
+	top: 40px;
+	width: 100px;
+	background-color: transparent;
+	margin-right: 10%;	  }
+
+.div_vertical-align{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align:middle;
+}
+
+.box_array{					/* это ЁМКОСТЬ РОДИТЕЛЯ ДЛЯ - всех сразу колонок */
+	display: inline;
+	box-sizing: border-box;
+
+
+}
+
+.box_father_left{				/* это стили РОДИТЕЛЯ ДЛЯ - всех сразу колонок */
+	display: inline-block;
+	box-sizing: border-box; 
+	height: 80%;
+	font-size: 20%;
+
+	color: #ec5a62;
+	width: 300px;
+	vertical-align: middle;   
+
+	margin-left: 0%;
+	margin-right: 0%;  }
+
+.box_father_mid{				/* это стили РОДИТЕЛЯ ДЛЯ - всех сразу колонок */
+	display: inline-block;
+	box-sizing: border-box; 
+	height: 80%;
+	font-size: 20%;
+
+	color: #ec5a62;
+	width: 300px;
+	vertical-align: middle;   
+
+	margin-left: 1%;
+	margin-right: 1%;   }
+
+.box_father_right{				/* это стили РОДИТЕЛЯ ДЛЯ - всех сразу колонок */
+	display: inline-block;
+	box-sizing: border-box; 
+	height: 80%;
+	font-size: 20%;
+
+	color: #ec5a62;
+	width: 300px;
+	vertical-align: middle;
+
+	margin-left: 0%;
+	margin-right: 0%;   }
+
+.box_father_zero{				/* это стили РОДИТЕЛЯ ДЛЯ - всех сразу колонок */
+	display: inline-block;
+	box-sizing: border-box;
+	height: 80%;
+	font-size: 20%;
+
+	color: #ec5a62;
+	width: 2.85%;
+	vertical-align: middle;
+
+	margin-left: 0%;
+	margin-right: 0%;  }
+
+.div_vertical-align .box_array .box_father_left .matreshka div{
+	background-color: #EBEBED;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;  }
+
+.div_vertical-align .box_array .box_father_mid .matreshka div{
+	background-color: #EBEBED;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;  }
+
+.div_vertical-align .box_array .box_father_right .matreshka div{
+	background-color: #EBEBED;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;  }
+
+.div_vertical-align .box_array .box_father_left .matreshka div:hover{
+	background-color: rgba(118, 117, 128, 0.12);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;  }
+
+.div_vertical-align .box_array .box_father_mid .matreshka div:hover{
+	background-color: rgba(118, 117, 128, 0.12);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;  }
+
+.div_vertical-align .box_array .box_father_right .matreshka div:hover{
+	background-color: rgba(118, 117, 128, 0.12);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;  }
+
+#name:hover{
+color: #ec5a62;	}
+
+.matreshka div span:not(#sp1):hover{
+	zoom: 110%;
+}
+
+
+
+.circle {
+	height: 3%;
+	-webkit-border-radius: 90px;
+-moz-border-radius: 90px;
+border-radius: 90px;	
+vertical-align: middle;
+padding: 3.7%;
+}
+
+img {
+	height: 3%;
+	vertical-align: middle;
+	padding: 3.7%;
+}
+
+#name{
+	font-size: 12px;
+	color: #B2B2B2;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+
+#round{
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#invisible_row{				/* это стили ИНВИЗНОГО РЯДА */
+	display: block;
+	box-sizing: border-box; 
+	background-color: #F1F1F1;
+	font-size: 4px;
+	width: 100%;
+	opacity: 1;
+	border-bottom: 2%;
+}
+
+a{
+	text-decoration: none;
+}
+
+.category{
+	display: inline-block;
+	box-sizing: border-box;
+
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	font-size: 0px;
+	color: #B2B2B2;
+	font-weight: bold;
+}
+
+#sp-title{
+	background-color: transparent;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: auto;
+}
+
+#sp-title:hover{
+	cursor: default;
+}
+
+#sp1{font-size: 16px;
+	line-height: 300%;
+	width: 30%;
+	color: #C5C5C5;
+	margin-right: 25.5%;
+
+}
+#sp2{font-size: 16px;
+	line-height: 300%;
+	width: 30%;
+	color: #C5C5C5;
+	margin-right: 24.5%;
+}
+#sp3{font-size: 16px;
+	line-height: 300%;
+	width: 30%;
+	color: #C5C5C5;
+	margin-right: 10%;
+}
+
+#sp_zero{
+	display: inline-block;
+	box-sizing: border-box;
+
+	font-size: 16px;
+	line-height: 300%;
+
+	width: 2.85%;
+}
+
+.div_vertical-align .box_array .box_father_left .matreshka div .stop_text{
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+
+
+
+
